@@ -1,0 +1,142 @@
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: 'flex';
+    flex-direction: 'row';
+    display: inline;
+}
+
+.formContainer{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: table;
+}
+.imageContainer{
+    float: left;
+    width: 50%;
+    max-height: 100%;
+    overflow: hidden;
+
+}
+.image{
+    width:100%;
+    max-height:100%;
+    position: absolute;
+}
+.simbolo{
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+}
+.formContents{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+.loginForm{
+    background-color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.title{
+    width: 274px;
+    height: 40px;
+
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #4D4D4D;
+}
+
+
+.labels{
+    float: left;
+    display: block;
+    width: 104px;
+    height: 16px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+
+    /* primary-gray-500 */
+
+    color: #4D4D4D;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: 55.61px;
+    border-style: none none solid none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 48px;
+
+    width: 100%;
+    height: 56px;
+
+    /* primary-green-500 */
+
+    background: #C8EA75;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.message1{
+    float: right;
+}
+.message1 .message2{
+    width: 440px;
+    height: 24px;
+    align-self: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    /* primary-gray-500 */
+
+    color: #4D4D4D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
